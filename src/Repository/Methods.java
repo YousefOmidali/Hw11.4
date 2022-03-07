@@ -194,17 +194,17 @@ public class Methods {
     }
 
     public static void studentMenu() {
-        System.out.println("***************Entity.Student Menu***************" + "\n1.Student Info \n2.Courses List \n3.Units check \n4.Exit");
+        System.out.println("***************.Student Menu***************" + "\n1.Student Info \n2.Courses List \n3.Units check \n4.Exit");
     }
 
     public static void masterMenu() {
-        System.out.println("***************Entity.Master Menu***************" + "\n1.Master Info \n2.Score register \n3.View PaySlip \n4.Exit");
+        System.out.println("***************Master Menu***************" + "\n1.Master Info \n2.Score register \n3.View PaySlip \n4.Exit");
     }
 
     public static void employeeMenu() {
-        System.out.println("***************Entity.Employee Menu***************" + "\n1.Student register \n2.Delete student \n3.Edit student info's" +
-                "\n4.Entity.Master register \n5.Delete master \n6.Edit master's info " +
-                "\n7.Entity.Employee register \n8.Delete employee \n9.Edit employees info " +
+        System.out.println("***************Employee Menu***************" + "\n1.Student register \n2.Delete student \n3.Edit student info's" +
+                "\n4.Master register \n5.Delete master \n6.Edit master's info " +
+                "\n7.Employee register \n8.Delete employee \n9.Edit employees info " +
                 "\n10.Add a course \n11.Delete course \n12.Edit course" +
                 "\n13.Employees payslip and info  \n14.Exit");
     }

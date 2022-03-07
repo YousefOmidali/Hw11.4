@@ -196,6 +196,7 @@ public class Main {
                     studentService.edit(index, firstName, lastName, username, password);
                 }
                 if (order == 4) {
+                    scanner.nextLine();
                     System.out.println("Enter student's first name:");
                     firstName = scanner.nextLine();
                     System.out.println("Enter student's last name:");
@@ -306,6 +307,7 @@ public class Main {
                     employeeService.editEmployee(index, employee);
                 }
                 if (order == 10) {
+                    scanner.nextLine();
                     System.out.println("Enter course name: ");
                     courseNameInMain = scanner.nextLine();
                     System.out.println("Enter number of course unit: ");

@@ -9,7 +9,7 @@ public class ScoreAndCourseService {
         try{
             scoreAndCoursesRepository.addCourse(courseName, unit);
         }catch (Exception e){
-            System.out.println("an error has occur! ");
+            System.out.println("an error has occur! "+e.getMessage());
         }
 
     }
